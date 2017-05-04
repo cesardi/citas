@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include citas *.css
+recursive-include citas *.csv
+recursive-include citas *.html
+recursive-include citas *.ico
+recursive-include citas *.js
+recursive-include citas *.json
+recursive-include citas *.md
+recursive-include citas *.png
+recursive-include citas *.py
+recursive-include citas *.svg
+recursive-include citas *.txt
+recursive-exclude citas *.pyc
